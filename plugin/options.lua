@@ -13,7 +13,7 @@ opt.smartindent = true
 -- change to directory of current open file
 opt.autochdir = true
 -- go to beginning of next line when go right at end of line
-opt.whichwrap:append '<>[]hl'
+opt.whichwrap:append("<>[]hl")
 -- don't show mode since it's in the status line
 opt.showmode = false
 opt.breakindent = true
@@ -22,7 +22,7 @@ opt.undofile = true
 opt.ignorecase = true
 opt.smartcase = true
 -- still don't really understand this
-opt.signcolumn = 'yes'
+opt.signcolumn = "yes"
 -- wait time after in ms after clicking command
 opt.updatetime = 250
 opt.timeoutlen = 1200
@@ -30,10 +30,10 @@ opt.timeoutlen = 1200
 opt.splitright = true
 opt.splitbelow = true
 
-opt.inccommand = 'split'
+opt.inccommand = "split"
 
 -- fill empty buffer strings with character
-opt.fillchars = { eob = ' ' }
+opt.fillchars = { eob = " " }
 
 -- a highlight displaying which line your cursor is on
 opt.cursorline = true
